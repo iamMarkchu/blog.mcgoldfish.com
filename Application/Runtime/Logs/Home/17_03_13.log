@@ -1,0 +1,568 @@
+[ 2017-03-13T00:04:15+08:00 ] 192.168.33.1 /article/view/id/123.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: maps /app/site/blog.mcgoldfish.com/Application/Home/Controller/ArticleController.class.php 第 22 行.
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-03-13T00:04:59+08:00 ] 192.168.33.1 /article/view/id/123.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: maps /app/site/blog.mcgoldfish.com/Application/Home/Controller/ArticleController.class.php 第 22 行.
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-13T00:05:09+08:00 ] 192.168.33.1 /article/view/id/123.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE `id` = '123' AND `status` = 'active' LIMIT 1  
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE `id` = '123' AND `status` = 'active' LIMIT 1  
+
+[ 2017-03-13T00:05:27+08:00 ] 192.168.33.1 /article/view/id/123.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '123' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-13T00:05:42+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-13T00:05:52+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2017-03-13T00:07:27+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-03-13T00:07:45+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-03-13T00:08:03+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002853s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: tag_list /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/8cca0fde40b05e619f4b9e6ccada96a4.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004652s ]
+
+[ 2017-03-13T00:08:32+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-03-13T00:08:41+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-03-13T00:09:05+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: tag_list /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/26e245d131fbfddc59b67133722d08f7.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-03-13T00:09:16+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: tag_list /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/26e245d131fbfddc59b67133722d08f7.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-03-13T00:09:33+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: tag_list /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/26e245d131fbfddc59b67133722d08f7.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2017-03-13T00:09:46+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: tag_list /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/26e245d131fbfddc59b67133722d08f7.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004189s ]
+
+[ 2017-03-13T00:09:57+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: tag_list /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/26e245d131fbfddc59b67133722d08f7.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2017-03-13T00:10:12+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: markdown /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/26e245d131fbfddc59b67133722d08f7.php 第 83 行.
+NOTIC: [8] Undefined variable: tag_list /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/26e245d131fbfddc59b67133722d08f7.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2017-03-13T00:13:09+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: tag_list /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/26e245d131fbfddc59b67133722d08f7.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-03-13T00:13:09+08:00 ] 192.168.33.1 /Public/markdown/2017-03-05/max_w_1000_58bc0f0129ca0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-03-13T00:15:47+08:00 ] 192.168.33.1 /article/view/id/100154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+SQL: SELECT article.*,category.`category_name` as cate_name FROM `article` LEFT JOIN category ON article.category_id = category.id  WHERE article.id = '100154' AND article.status = 'active' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: tag_list /app/site/blog.mcgoldfish.com/Application/Runtime/Cache/Home/26e245d131fbfddc59b67133722d08f7.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-03-13T00:15:47+08:00 ] 192.168.33.1 /Public/markdown/2017-03-05/max_w_1000_58bc0f0129ca0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-03-13T22:13:45+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tag` ORDER BY display_order  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002364s ]
+
+[ 2017-03-13T22:13:45+08:00 ] 192.168.33.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-03-13T22:30:51+08:00 ] 192.168.33.1 /tool/generate_model/model/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-03-13T22:43:50+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` LEFT JOIN category ON article.category_id = category.id   [ RunTime:0.0003s ]
+
+[ 2017-03-13T22:44:33+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` LEFT JOIN category ON article.category_id = category.id   [ RunTime:0.0004s ]
+
+[ 2017-03-13T22:44:40+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` LEFT JOIN category ON article.category_id = category.id   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` ORDER BY display_order  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-03-13T22:45:29+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT article.*,category.category_name FROM `article` LEFT JOIN category ON article.category_id = category.id   [ RunTime:0.0003s ]
+
+[ 2017-03-13T22:47:52+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+ERR: syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-03-13T22:48:00+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT article.*,category.category_name FROM `article` LEFT JOIN category ON article.category_id = category.id   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` ORDER BY display_order  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2017-03-13T22:49:47+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SELECT article.*,category.category_name FROM `article` LEFT JOIN category ON article.category_id = category.id   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tag` ORDER BY display_order  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-03-13T22:49:47+08:00 ] 192.168.33.1 /Public/article/2017-03-05/400_58bc0ec6ea046.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-03-13T22:49:47+08:00 ] 192.168.33.1 /Public/article/2017-03-06/400_58bd7ddd29af8.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005714s ]
+
+[ 2017-03-13T22:49:47+08:00 ] 192.168.33.1 /Public/article/2017-03-06/400_58bd7e57a9cf6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-03-13T22:49:47+08:00 ] 192.168.33.1 /Public/article/2017-03-13/400_58c6ab8cbbda9.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006169s ]
+
+[ 2017-03-13T22:49:47+08:00 ] 192.168.33.1 /Public/article/2017-03-13/400_58c6a9bfe7d3e.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003974s ]
+
+[ 2017-03-13T22:53:51+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT article.*,category.category_name FROM `article` LEFT JOIN category ON article.category_id = category.id   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` ORDER BY display_order  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+ERR: Call to undefined function generate_url()
+

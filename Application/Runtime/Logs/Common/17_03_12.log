@@ -1,0 +1,90 @@
+[ 2017-03-12T23:11:48+08:00 ] 192.168.33.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-03-12T23:20:38+08:00 ] 192.168.33.1 /style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Style
+
+[ 2017-03-12T23:20:38+08:00 ] 192.168.33.1 /400_58bd7e57a9cf6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+ERR: 无法加载模块:400_58bd7e57a9cf6
+
+[ 2017-03-12T23:21:53+08:00 ] 192.168.33.1 /style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:Style
+
+[ 2017-03-12T23:21:53+08:00 ] 192.168.33.1 /400_58bd7e57a9cf6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+ERR: 无法加载模块:400_58bd7e57a9cf6
+
+[ 2017-03-12T23:22:44+08:00 ] 192.168.33.1 /style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Style
+
+[ 2017-03-12T23:22:44+08:00 ] 192.168.33.1 /400_58bd7e57a9cf6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+ERR: 无法加载模块:400_58bd7e57a9cf6
+
+[ 2017-03-12T23:23:11+08:00 ] 192.168.33.1 /style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Style
+
+[ 2017-03-12T23:23:45+08:00 ] 192.168.33.1 /style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:Style
+
+[ 2017-03-12T23:23:52+08:00 ] 192.168.33.1 /style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+ERR: 无法加载模块:Style
+
+[ 2017-03-12T23:24:53+08:00 ] 192.168.33.1 /style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Style
+
+[ 2017-03-12T23:24:54+08:00 ] 192.168.33.1 /style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Style
+
+[ 2017-03-12T23:24:57+08:00 ] 192.168.33.1 /style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+ERR: 无法加载模块:Style
+
+[ 2017-03-12T23:52:21+08:00 ] 192.168.33.1 /tool/generate_controller/controller/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 无法加载模块:Tool
+
+[ 2017-03-12T23:53:23+08:00 ] 192.168.33.1 /tool/generate_controller
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载模块:Tool
+

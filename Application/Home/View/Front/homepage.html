@@ -1,0 +1,62 @@
+<extend name="front:app"/>
+<block name="main">
+    <div class="col-md-9">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">推荐文章</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <volist name="article_list" id="article">
+                        <div class="col-md-4">
+                            <div class="panel panel-default home-recommand-block">
+                                <div class="panel-heading">
+                                    <a href="{:generate_url('article', $article['id'])}"><img src="{$article.image|default="/Public/400_58bd7e57a9cf6.png"}" alt="" class="img-responsive"></a>
+                                </div>
+                                <div class="panel-body">
+                                    <p>{$article.title}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </volist>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">热门文章</h3>
+            </div>
+            <div class="panel-body">
+                <p><a href="#">无法远程登录MYSQL?</a></p>
+                <p><a href="#">使用mysql的alter命令修改表字段?</a></p>
+                <p><a href="#">使用mysqldump命令对数据库备份?</a></p>
+                <p><a href="#">无法远程登录MYSQL?</a></p>
+                <p><a href="#">无法远程登录MYSQL?</a></p>
+            </div>
+        </div>
+        <div class="panel panel-default tag-panel">
+            <div class="panel-heading">
+                <h3 class="panel-title">热门标签</h3>
+            </div>
+            <div class="panel-body">
+                <volist name="tag_list" id="tag">
+                    <a href="" class="btn btn-success btn-sm">{$tag.tag_name}</a>
+                </volist>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">最新文章</h3>
+            </div>
+            <div class="panel-body">
+                <p><a href="#">无法远程登录MYSQL?</a></p>
+                <p><a href="#">使用mysql的alter命令修改表字段?</a></p>
+                <p><a href="#">使用mysqldump命令对数据库备份?</a></p>
+                <p><a href="#">无法远程登录MYSQL?</a></p>
+                <p><a href="#">无法远程登录MYSQL?</a></p>
+            </div>
+        </div>
+    </div>
+</block>
