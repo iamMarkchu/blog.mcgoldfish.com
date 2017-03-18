@@ -4,6 +4,6 @@ return array(
     'DB_TYPE' => 'mysql',
     'DB_HOST'               =>  'localhost',
     'DB_NAME'               =>  'chukui_base',
-    'DB_USER'               =>  'homestead',
-    'DB_PWD'                =>  'secret',
+    'DB_USER'               =>  'root',
+    'DB_PWD'                =>  'chukui',
 );
