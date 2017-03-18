@@ -24,6 +24,6 @@ class ArticleController extends Controller {
         $content = htmlspecialchars_decode($result['content']);
         $result['markdown'] = $parsedown->text($content);
         $this->assign('result', $result);
-        $this->display('front/article');
+        $this->display('Front/article');
     }
 }

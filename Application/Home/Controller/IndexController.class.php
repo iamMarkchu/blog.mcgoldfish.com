@@ -11,6 +11,6 @@ class IndexController extends Controller {
         $tag = D('tag');
         $tag_list = $tag->order('display_order')->select();
         $this->assign('tag_list', $tag_list);
-        $this->display('front/homepage');
+        $this->display('Front/homepage');
     }
 }
