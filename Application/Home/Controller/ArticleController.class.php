@@ -1,14 +1,8 @@
 <?php
 namespace Home\Controller;
-use Think\Controller;
 use Common\Util\Parsedown;
-class ArticleController extends Controller {
+class ArticleController extends CommonController {
     public function index(){
-
-    }
-
-    public function view()
-    {
         if(!I('get.id', 0, 'intval')) $this->error('文章不存在！');
         $id = I('get.id');
         $article = D('article');
@@ -20,9 +14,11 @@ class ArticleController extends Controller {
         $result = $article->field('article.*,category.`category_name` as cate_name')
             ->join('LEFT JOIN category ON article.category_id = category.id')
             ->where($maps)->find();
+        if(empty($result)) $this->error('文章不存在!');
         $parsedown = new Parsedown();
         $content = htmlspecialchars_decode($result['content']);
         $result['markdown'] = $parsedown->text($content);
+        $result['markdown'] = stripslashes($result['markdown']);
         $this->assign('result', $result);
         $this->display('Front/article');
     }

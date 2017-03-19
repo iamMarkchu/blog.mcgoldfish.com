@@ -1,12 +1,38 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+html, body {
+    height: 100%;
+    font-size: 14px;
+    color: #525252;
+    font-family: NotoSansHans-Regular,AvenirNext-Regular,arial,Hiragino Sans GB,"Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+    background: #f0f2f5;
+}
+a{
+    color: #676464
+}
+.nav-blog{
+    background-color: #fff;
+}
 .home-recommand-block{
 
 }
 .home-recommand-block>.panel-heading{
     padding: 0;
 }
-.home-recommand-block>.panel-body>p{
-    height: 40px;
-    margin-bottom: 0;
+.home-recommand-block>.panel-body{
+    height: 66px;
+    padding: 0 10px;
+}
+.home-recommand-block>.panel-body>h3{
+    font-size: 1em;
+}
+.home-recommand-block>.panel-body a{
+    font-size: 1.2em;
+    color: #676464
 }
 .tag-panel{
 
@@ -14,4 +40,47 @@
 .tag-panel a{
     margin-right: 5px;
     margin-bottom: 5px;
+}
+
+.aside-panel{
+
+}
+.aside-panel .panel-heading{
+    background-color: #fff;
+}
+.article-panel .panel-heading{
+    background-color: #fff;
+}
+.my-markdown-editor h1.panel-title{
+    font-size:28px;
+    margin: 1.1em auto 1em;
+}
+.my-markdown-editor img{
+    max-width:100%;
+}
+.my-markdown-editor pre{
+    border:none;
+    background-color:#fff;
+    padding: 9.5px 0;
+}
+.my-markdown-editor h2,.my-markdown-editor h3{
+    padding-bottom: 0.3em;
+    font-size: 1.3em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee
+}
+.my-category-list{
+    padding: 0;
+}
+.my-category-list .list-group{
+    margin-bottom: 0;
+}
+.my-category-list .list-group .list-group-item:first-child{
+    border-top: none;
+}
+.my-category-list .list-group .list-group-item{
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
 }

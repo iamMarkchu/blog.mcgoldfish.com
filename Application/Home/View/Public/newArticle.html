@@ -1,0 +1,10 @@
+<div class="panel panel-default aside-panel">
+    <div class="panel-heading">
+        <h3 class="panel-title">最新文章</h3>
+    </div>
+    <div class="panel-body">
+        <volist name="new_article_list" id="vo" empty="暂时没有数据">
+            <p><a href="{:generate_url('article', $vo['id'])}">{$vo.title}</a></p>
+        </volist>
+    </div>
+</div>

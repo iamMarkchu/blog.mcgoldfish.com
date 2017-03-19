@@ -7,5 +7,5 @@
  */
 function generate_url($type, $id)
 {
-    return U('article/view', ['id'=>$id]);
+    return U('/'.$type.'/'.$id);
 }
