@@ -1,0 +1,7 @@
+<if condition="(!empty($search_list))">
+	<volist name="search_list" id="vo">
+		<a href="{:generate_url('article', $vo['id'])}" class="list-group-item">{$vo.title}</a>
+	</volist>
+<else />
+	<p class="list-group-item">没有找到文章</p>
+</if>

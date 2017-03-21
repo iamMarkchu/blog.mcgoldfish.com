@@ -2,7 +2,8 @@
 namespace Home\Controller;
 use Common\Util\Parsedown;
 class ArticleController extends CommonController {
-    public function index(){
+    public function index()
+    {
         if(!I('get.id', 0, 'intval')) $this->error('文章不存在！');
         $id = I('get.id');
         $article = D('article');
@@ -21,5 +22,23 @@ class ArticleController extends CommonController {
         $result['markdown'] = stripslashes($result['markdown']);
         $this->assign('result', $result);
         $this->display('front/article');
+    }
+    public function search()
+    {
+        $keyword = I('get.keyword', '');
+        if(empty($keyword))
+        {
+            $search_list = [];
+        }else{
+            $keyword = trim($keyword);
+            $article = D('article');
+            $maps = [
+                'status' => 'active',
+                'title' => ['LIKE', "%{$keyword}%"]
+            ];
+            $search_list = $article->where($maps)->order('display_order,source')->select();
+        }
+        $this->assign('search_list', $search_list);
+        $this->display('Public/search-block');
     }
 }

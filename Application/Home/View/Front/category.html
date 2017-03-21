@@ -7,13 +7,17 @@
             </div>
             <div class="panel-body my-category-list">
                 <ul class="list-group">
-                    <volist name="article_list" id="vo">
-                        <li class="list-group-item">
-                            <span class="label label-success">{$vo.source}</span>
-                            <a href="{:generate_url('article', $vo['id'])}">{$vo.title}</a>
-                            <p class="pull-right">123/123123/123 | {$vo.created_at}</p>
-                        </li>
-                    </volist>
+                    <if condition="(!empty($article_list))">
+                        <volist name="article_list" id="vo">
+                            <li class="list-group-item">
+                                <span class="label label-success">{$vo.source}</span>
+                                <a href="{:generate_url('article', $vo['id'])}">{$vo.title}</a>
+                                <p class="pull-right">123/123123/123 | {$vo.created_at}</p>
+                            </li>
+                        </volist>
+                    <else />
+                        <p class="list-group-item">暂无数据！</p>
+                    </if>
                 </ul>
             </div>
         </div>

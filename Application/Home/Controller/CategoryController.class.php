@@ -12,4 +12,13 @@ class CategoryController extends CommonController {
         $this->assign('article_list', $article_list);
         $this->display('Front/category');
     }
+
+    public function all()
+    {
+        $this->_before_index();
+        $category = D('category');
+        $all_category_list = $category->select();
+        $this->assign('all_category_list', $all_category_list);
+        $this->display('Front/categories');
+    }
 }
