@@ -17,6 +17,15 @@ a{
 .nav-blog{
     background-color: #fff;
 }
+/* search */
+.search{
+    position: relative;
+}
+.search-block{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
 .home-recommand-block{
 
 }
