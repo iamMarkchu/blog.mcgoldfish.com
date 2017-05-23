@@ -20,8 +20,6 @@
                         <volist name="category_list" id="vo" offset="4" length="4">
                             <li><a href="{:generate_url('category', $vo['id'])}">{$vo.category_name}</a></li>
                         </volist>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="{:U('/categories')}">所有类别</a></li>
                     </ul>
                 </li>
             </ul>
@@ -34,7 +32,7 @@
                 </div>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">登录/注册</a></li>
+                <li><a href="javascript:;" class="login-btn">登录/注册</a></li>
             </ul>
         </div>
     </div>
